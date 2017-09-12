@@ -1,0 +1,38 @@
+package varbit_varp.rs3;
+
+public enum RS3Varp {
+
+    SLAYER_TASK_KILLS_LEFT(183),
+    SLAYER_MONSTER_CATEGORY(185),
+
+    AUTO_RETALIATING(462),
+
+    WARRIORS_GUILD_STRENGTH_POINTS(3068),
+    WARRIORS_GUILD_DEFENCE_POINTS(3066),
+    WARRIORS_GUILD_BALANCE_POINTS(3067),
+    WARRIORS_GUILD_ATTACK_POINTS(3066),
+
+    WARRIORS_GUILD_COMBAT_POINTS(3067),
+
+    MTA_ALCHEMIST_POINTS(1347),
+    MTA_TELEKINETIC_POINTS(1347),
+    MTA_GRAVEYARD_POINTS(1348),
+    MTA_ENCHANTMENT_POINTS(1348),
+
+    DUNGEON_TOKENS(1097),
+    TOKKUL(6526),
+    SLAYER_POINTS(2092),
+    ANAGOGIC_ORTS(2006),
+    ECTO_TOKENS(6533),
+    RUNESPAN_POINTS(3220);
+
+    private final int varp;
+
+    RS3Varp(int varp) {
+        this.varp = varp;
+    }
+
+    public int getVarp() {
+        return varp;
+    }
+}
