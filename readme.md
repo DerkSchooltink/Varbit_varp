@@ -15,3 +15,4 @@ The contributors to the datacollection, in no particular order:
 - Auxi
 - Derk
 - Party
+- Bazzagazza
