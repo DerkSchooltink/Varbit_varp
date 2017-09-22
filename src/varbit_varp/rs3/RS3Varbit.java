@@ -47,7 +47,9 @@ public enum RS3Varbit {
 
     ADRENALINE_AMOUNT(21454),
     SLAUGHTER_ACTIVE(1913),
-    COMBUST_ACTIVE(1933);
+    COMBUST_ACTIVE(1933),
+
+    CAMERA_ZOOM_LOCKED(19926);
 
     private final int varbit;
 
