@@ -1,10 +1,13 @@
 package varbit_varp.osrs;
 
 public enum OSRSVarp {
+    ACTIVE_MAGIC_BOOK(439),
 
     BLAST_FURNACE_COOLING_STATE(543),
     BLAST_FURNACE_STORED_ORE(547),
     BLAST_FURNACE_COFFER_COINS(795),
+
+    CHAT_EFFECTS_HIDDEN(171),
 
     STAMINA_POTION_ACTIVE(628),
 
@@ -18,7 +21,9 @@ public enum OSRSVarp {
 
     AUTO_RETALIATING(172),
 
-    RUN_ENABLED(173);
+    RUN_ENABLED(173),
+
+    CHATBOX_PROFANITY_ALLOWED(1074);
 
     private final int varp;
 
