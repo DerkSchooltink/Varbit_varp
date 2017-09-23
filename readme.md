@@ -16,3 +16,4 @@ The contributors to the datacollection, in no particular order:
 - Derk
 - Party
 - Bazzagazza
+- Qverkk
